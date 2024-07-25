@@ -1,0 +1,88 @@
+body
+{
+    background-color: rgb(253, 248, 248);
+    color:azure;
+    margin: 0px;
+
+}
+.navbar-container
+{
+    justify-content: space-around;
+    display:flex;
+   
+    background-color: rgb(249, 156, 156);
+    width: auto;
+
+}
+.navbar-icon
+{
+    max-width: fit-content;  
+    display: flex;
+    gap: 20px;
+}
+.icon{
+    color:black;
+    font-size: 25px;
+    margin-top: 10px;
+  
+}
+.navbar-menu
+{
+    display: flex;
+}
+.navbar-menu ul
+{
+    display: flex;
+    text-decoration: none;
+    gap: 20px;
+  
+
+}
+.navbar-menu ul li
+{
+    font-size: 25px;
+    list-style: none;
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+
+}
+.addcard
+{
+    display: flex;
+    color: black;
+    font-size: 25px;
+}
+.nav-cart-count{
+    background-color:red ;
+    color: white;
+    border-radius: 50px 50px 50px 50px;
+    width: 30px;
+    height: 30px;
+    padding-left: 10px;
+   
+}
+button
+{
+    color :rgb(20, 21, 20);
+    width:120px;
+    height: 50px;
+    background-color: aquamarine;
+    font-size: 30px;
+    font-style: bold;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+button:hover{
+    background-color: yellow;
+    border-radius: 20px;
+}
+img
+{
+    margin-top: 10px;
+    width:50px;
+    height: 50px;
+    background-attachment: fixed;
+
+}
