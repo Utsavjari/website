@@ -9,7 +9,7 @@ import Product from './Pages/Product';
 import About from './Pages/About';
 import Content from './Pages/Content';
 
-
+import Footer from './Components/footer';
 
 
 
@@ -36,6 +36,7 @@ function App() {
       
     
       </Routes>
+      <Footer />
       </BrowserRouter>
     </div>
 
