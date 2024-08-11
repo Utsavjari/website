@@ -10,7 +10,7 @@ import About from './Pages/About';
 import Content from './Pages/Content';
 
 import Footer from './Components/footer';
-
+import Register from './Pages/Register';
 
 
 
@@ -23,20 +23,18 @@ function App() {
     <BrowserRouter>
       <Navbar/>
       <Routes>
-       <Route path='/' element={<Home/>}></Route>
+       < Route path='/' element={<Home/>}></Route>
        <Route path='/Login' element={<Login/>}></Route>
        <Route path='/Product' element={<Product/>}></Route>
-       <Route path='/About' element={<About/>}></Route>
+       <Route path='/About' element= {<About/>}></Route>
        <Route path='/Content' element={<Content/>}></Route>
 
-       <Route path='/Login' element={<Login/>}></Route>
+       
+       <Route path='/register' element={<Register/>}></Route>
       
-
-
-      
-    
       </Routes>
       <Footer />
+      
       </BrowserRouter>
     </div>
 
