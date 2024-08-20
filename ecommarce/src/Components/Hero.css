@@ -48,21 +48,25 @@
 }
 
 .label{
-    width:1400px;
+    width:1100px;
     height: 350px; 
+   
 }
 #label-img {
-    width:1400px;
+    width:1100px;
     height: 500px;
     object-fit:cover;
     position: relative;
+  
+    margin-left: 130px;
 }
 .title-container
 {
   width: 500px;
   height: 100px;
-  color: black;
-  margin-top: -300px;
+  color: rgb(235, 30, 30);
+  margin-top: -500px;
+  
 }
 .label-title
 {
@@ -71,14 +75,15 @@
     font-weight: bold;
     font-style: italic;
     margin-left: 60px;
+    color: rgb(240, 224, 224);
   
 }
 .labelbtn
 {
     width: 150px;
     position:absolute;
-    top: 300px;
-    left:350px;
+    top: 440px;
+    left:570px;
     background-color: rgb(233, 93, 50);
     font-size: 30px;
 }
